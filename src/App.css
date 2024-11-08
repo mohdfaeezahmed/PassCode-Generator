@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passwordBox {
+  width: 350px;
+  padding: 20px;
+  background-color: palevioletred;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.passcdgen {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.passwordBoxInner {
+  display: flex;
+}
+
+.passwordBoxInner input {
+  flex-basis: 80%;
+  color: black;
+  padding-left: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.passwordBoxInner button {
+  flex-basis: 20%;
+  padding: 10px 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: system-ui;
+  cursor: pointer;
+
+}
+
+.passwordLength {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.passwordLength input {
+  padding: 10px 0px;
+  width: 60px;
+  border-radius: 10px;
+  font-family: system-ui;
+  padding-left: 6px;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  font-family: system-ui;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
